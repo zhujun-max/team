@@ -1,19 +1,17 @@
-# qq
+# 《潮汐》项目
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 成员
+**组长**：**朱俊**
+负责板块：登录，注册，短信验证，聊天页面
+**组员**：**杨洋**
+负责板块：功能页面，详情页面
+**组员**：**舒婷婷**
+负责板块：首页空间页面，联系人页面
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 项目链接
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    http://www.zhujun163.cn
+
+## 项目详情
+qq_server为后端文件，需要运行命令npm i 下载node_modules文件

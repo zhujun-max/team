@@ -1,32 +1,58 @@
+<!--
+ * @队伍名: 潮汐
+ * @日期: Do not edit
+ * @修改人: 朱俊
+ * @LastEditTime: 2020-02-27 12:48:59
+ * @备注: 
+ -->
+
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
-
+<script>
+console.log()
+</script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+}
+@media (max-width: 1000px) {
+  html,
+  body {
+    font-size: 25px;
+  }
 }
 
-#nav {
-  padding: 30px;
+@media (max-width: 750px) {
+  html,
+  body {
+    font-size: 20px;
+  }
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@media (max-width: 450px) {
+  html,
+  body {
+    font-size: 18px;
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@media (max-width: 400px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  html,
+  body {
+    font-size: 14px;
+  }
 }
 </style>
+
