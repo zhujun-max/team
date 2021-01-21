@@ -22,6 +22,6 @@
     "mysql": "^2.17.1",
     "node-localstorage": "^2.1.5",
     "qcloudsms_js": "^0.1.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   }
 }
